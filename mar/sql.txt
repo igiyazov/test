@@ -1,0 +1,16 @@
+CREATE TABLE IF NOT EXISTS allusers(
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        name TEXT,
+        sphere TEXT);
+CREATE TABLE IF NOT EXISTS allneeds(
+        needid INT PRIMARY KEY ,
+        need TEXT,
+        userid INT);
+CREATE TABLE IF NOT EXISTS allpossibles(
+        possibid INT PRIMARY KEY,
+        possible TEXT,
+        userid INT);
+CREATE TABLE IF NOT EXISTS allcontent(
+        contentid INT PRIMARY KEY,
+        contents TEXT,
+        userid INT);
